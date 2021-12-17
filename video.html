@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+    function colorchange(){
+        setInterval(function(){
+            var i= document.getElementById("h");
+                if(i.style.color=="red")
+                    i.style.color="blue";
+                else
+                    i.style.color="red";
+                    },300);
+      }
+    </script>
+</head>
+<body onload = "colorchange();">
+   <h1 id="h">웹프로그램 제작</h1>
+    <video src="media/Puppy.mp4" width="500" height="500" controls loop autoplay></video>
+</body>
+</html>

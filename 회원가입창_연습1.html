@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+           <style>
+        .login_form{
+         background-color: hotpink;
+         width: 600px;
+         margin: 0 auto;
+         padding: 20px 10px 20px 0;
+        }
+        ul{
+        list-style-type: none;
+        }
+        .cols li{
+        display: inline-block;
+        }
+        .c1{
+        width: 120px; 
+        text-align: right;
+        font-weight: bold;
+        color: #fff;
+        }
+        h3{
+/* 글자색, 굵게*/
+        color: purple;
+        font-weight: bold;
+        font-size:25px;
+        }
+        .bb{
+        text-align: center;                
+        }
+        textarea{
+        background-color: greenyellow;    
+        }
+        .btn{
+/*        크기    */
+        width: 70px;
+        height: 50px;
+/*        글씨크기    */
+        font-size: 20px;
+/*        배경색상*/
+        background-color: purple;    
+/*        글씨색*/
+        color: #fff;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="login_form">
+    <h3 class="bb">회원가입</h3>
+    <form action="login.php" method="post" name="f">
+        <ul>
+            <li>
+                <ul class="cols">
+                    <li class="c1">아이디:</li>
+                    <li class-"c2">
+                     <input type="text" name="id" size="15" maxlength="15">
+                     </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="cols">
+                    <li class="c1">비밀번호:</li>
+                    <li class="c2">
+                        <input type="password" name="pw1">
+                    </li>
+                </ul>
+            </li>
+        
+            <li>
+                <ul>
+                    <li class="c1">비밀번호 확인:</li>
+                    <li class="c2">
+                        <input type="password" name="pw2">
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="cols">
+                    <li class="c1">성별:</li>
+                    <li class="c2">
+                        <input type="radio" value="male" name="genger" checked>남성
+                        <input type="radio" value="female" name="gender">여성
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="cols">
+                    <li class="c1">휴대전화</li>
+                    <li class="c2">
+                        <input type="tel" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" title="###-####-####">
+                    </li>
+                </ul>
+                
+            </li>
+            <li>
+                <ul class="cols">
+                    <li class="c1">이메일:</li>
+                    <li class="c2">
+                        <input type="text" name="email">@<select name=""id="">
+                            <option value="">선택</option>
+                            <option value="">naver.com</option>
+                            <option value="">gmail.com</option>
+                        </select>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="cols">
+                    <li class="c1">취미:</li>
+                    <li class="c2">
+                        <input type="checkbox" name="hobby1">쉼
+                        <input type="checkbox" name="hobby2">수선
+                        <input type="checkbox" name="hobby3">청소
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="cols">
+                    <li class="c1">자기소개:</li>
+                    <li class="c2">
+                        <textarea name="" id="" cols="35" rows="5"></textarea>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <ul class="cols">
+                    <li class="c1">파일 첨부:</li>
+                    <li class="c2">
+                        <input type="file">*2MB까지 가능
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <div class="bb">
+            <input type="submit" value="가입" class="btn">
+            <input type="reset" value="취소" class="btn">
+            
+        </div>
+    </form>
+    </div>
+</body>
+</html>

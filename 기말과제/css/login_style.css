@@ -1,0 +1,53 @@
+
+input[type="text"], input[type="password"]{
+    width:73%;
+    margin:10px;
+/*            margin-bottom: 10px;*/
+    font-size:30px;
+    padding:10px;
+
+}
+input[type="submit"]{
+    width:100%;
+    height:100%;
+    padding:15px 0 15px 15px;
+    background-color: darkred;
+    margin-bottom:20px;
+    font-family: "돋움체";
+    font-size: 30px;
+    color:white;
+    margin-top: 10px;
+}
+input[type="submit"]:hover{
+    background-color: hotpink;
+    color: black;
+}
+
+.container{
+    margin:150px auto;
+    width:650px;
+    height: 330px;
+    background-color: #fff000;
+    text-align: center;
+    position: absolute;
+    top:100px;
+    left:50%;
+    transform: translate(-50%,0);
+}
+body{
+
+    background-image: url(기말고사/images/library-5641389_1920.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+#login-left{
+    float:left;
+    width:60%;
+    margin-left:20px;
+}
+#login-right{
+    float:right;
+    width:25%;
+    height: 150px;
+    margin-right: 40px;
+}

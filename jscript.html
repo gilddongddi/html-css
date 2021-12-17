@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        function process(){
+            var ob=document.getElementById("txt").value;
+            if (ob=="admin"){
+                document.getElementById("view1").innerText="멋진 아이디네요:)";
+            }
+            else{
+               if(ob=="") 
+                document.getElementById("view1").innerText="필수입력정보입니다.";
+                else{
+                    document.getElementById("view1").innerText="이미 사용중이거나 탈퇴한 아이디입니다.";
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="txt" size="20" name="text">
+    <input type="button" value="로그인" onclick="process()">
+    <br><br><br>
+    <div id="view1" style="color:red"></div>
+</body>
+</html>

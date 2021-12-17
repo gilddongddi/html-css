@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bitter:wght@100&family=Black+Han+Sans&family=Fjalla+One&family=Francois+One&family=Gaegu&family=Gideon+Roman&family=Gothic+A1:wght@200;500;600;900&family=Jua&family=Kirang+Haerang&family=Libre+Baskerville&family=Lora&family=Nanum+Brush+Script&family=Nanum+Myeongjo:wght@800&family=Noto+Serif+KR:wght@200&family=Poor+Story&family=Prata&family=Tinos&display=swap');
+
+.map{
+    width:100%;
+    height:100%;
+    text-align: center;
+}
+
+
+
+#fixed{
+    width:100%;
+    height: 50%;
+   
+    margin:0px;
+    opacity: 0.5;
+    background-color: yellow;
+    
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+
+#fixed_one{
+    font-size: 500px;
+    font-weight: bold;
+    font
+    line-height: 5px;
+    letter-spacing: -70px;
+    opacity: 0.5;
+    overflow: hidden;
+    color:black;
+    transform: translate(-180px,-450px)
+}
+
+.text1{
+    font-size: 100px;
+    font-weight: 900;
+    font-family: 'Nanum Myeongjo', serif;
+}
+.russia{
+    font-size: 60px;
+    font-weight: bold;
+    color:antiquewhite;
+    font-family: 'Libre Baskerville', serif;
+}
+.text3{
+    font-size: 150px;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 500;
+    color: cadetblue;
+    opacity: 80%;
+    position: absolute;
+    top:20%;
+    right:0;
+}
+.text4{
+    font-size: 100px;
+    position: absolute;
+    top:65%;
+    right:0;
+    font-family: 'Libre Baskerville', serif;
+    font-weight:lighter;
+}
+.text5{
+    font-size: 200px;
+    font-weight: 900;
+    color: darkslategray;
+    position: absolute;
+    top: 70%;
+    left:0;
+    
+}
+#japan{
+    font-size: 100px;
+    position: absolute;
+    top:35%;
+    left:0;
+    opacity: 60%;
+    color: 
+    
+}
+#cow{
+    font-size: 300px;
+    opacity: 50%;
+    position:absolute;
+    top:35%;
+    left:0;
+}
+#monkey{
+    font-family: 'Tinos', serif;
+    font-size: 500px;
+    position:absolute;
+    top:50%;
+    left:0;
+    
+}
+
+#iframe{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}

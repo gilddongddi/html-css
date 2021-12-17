@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    
+    </style>
+</head>
+<body>
+    <div class="login_form">
+        <h3 class="bb">회원가입</h3>
+        <form action="login.php" mothod="post" name="f">
+            <ul id="mem_form">
+                <li>
+                    <ul class="cols">
+                        <li class="c1">아이디</li>
+                        <li class="c2">
+                            <input type="text" name="id" size=15 maxlength=15>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="cols">
+                        <li class="c1">비밀번호</li>
+                        <li class="c2">
+                            <input type="password" name="pw1">
+                        </li>
+                    </ul>
+                </li>
+                 <li>
+                    <ul class="cols">
+                        <li class="c1">비밀번호 확인</li>
+                        <li class="c2">
+                            <input type="password" name="pw2">
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="cols">
+                        <li class="c1">성별:</li>
+                        <li class="c2">
+                            <input type="radio" value="male" name="gender" checked>남성
+                            <input type="radio" value="female" name="gender">여성
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                     <ul class="cols">
+                        <li class="c1">휴대전화</li>
+                        <li class="c2">
+                            <input type="tel" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" title="###-####-####">
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                     <ul class="cols">
+                        <li class="c1">이메일:</li>
+                        <li class="c2">
+                            <input type="text" name="email" >@
+                            <select name="id=">
+                                <option value="">선택</option>
+                                <option value="">naver.com</option>
+                                <option value="">daum.net</option>
+                                <option value="">gmail.com</option>
+                            </select>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="cols">
+                        <li class="c1">취미:</li>
+                        <li class="c2">
+                            <input type="checkbox" name="hobby1">쉼
+                            <input type="checkbox" name="hobby2">수선
+                            <input type="checkbox" name="hobby3">청소
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="cols">
+                        <li class="c1">자기소개</li>
+                        <li class="c2">
+                            <textarea name="" id="" cols="35" rows="5"></textarea>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="cols">
+                        <li class="c1">파일 첨부 :</li>
+                        <li class="c2">
+                            <input type="file">*2MB까지 가능
+                        </li>
+                    </ul>
+                </li>
+               
+            </ul>
+            <div class="bb">
+                <input type="submit" value="가입" class="btn">
+                <input type="reset" value="취소" class="btn">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

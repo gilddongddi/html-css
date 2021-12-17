@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Brush+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+   h1 {
+      display: inline-block;
+
+font-family: 'Jua', sans-serif;
+
+      font-size:1.4em;
+      background-color:#222;
+      color:#fff;
+      padding:10px;
+    }
+    ul {
+      list-style:none;
+    }
+    li {
+      font-family: 'Nanum Brush Script', cursive;
+      font-size:1.2em;
+      line-height:1.5;
+      color:blue;
+    }

@@ -1,0 +1,44 @@
+       <style>
+        .login_form{
+         background-color: hotpink;
+         width: 600px;
+         margin: 0 auto;
+         padding: 20px 10px 20px 0;
+        }
+        ul{
+        list-style-type: none;
+        }
+        .cols li{
+        display: inline-block;
+        }
+        .c1{
+        width: 120px; 
+        text-align: right;
+        font-weight: bold;
+        color: #fff;
+        }
+        h3{
+/* 글자색, 굵게*/
+        color: purple;
+        font-weight: bold;
+        font-size:25px;
+        }
+        .bb{
+        text-align: center;                
+        }
+        textarea{
+        background-color: greenyellow;    
+        }
+        .btn{
+/*        크기    */
+        width: 70px;
+        height: 50px;
+/*        글씨크기    */
+        font-size: 20px;
+/*        배경색상*/
+        background-color: purple;    
+/*        글씨색*/
+        color: #fff;
+        }
+        
+    </style>

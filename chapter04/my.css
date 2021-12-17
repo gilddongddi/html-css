@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Noto+Serif+KR:wght@200&display=swap');
+*{text-align: center;}
+table{margin:auto;}
+h1{font-family: 'Nanum Brush Script', cursive;
+    ;font-size:50px;}
+img{width:500px; height:auto;
+
+}
+h3{
+    text-decoration: underline;
+}
+#price{text-decoration: line-through;font-size:20px;font-weight: bold}

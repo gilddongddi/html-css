@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script>
+    $(document).ready(function(){
+       $("#button1").click(function(){
+           $("h1").hide();
+       }) ;
+       $("#button2").click(function(){
+       $("h1").show();
+       }) ;
+    });
+    </script>
+</head>
+<body>
+
+   <div>
+       <h1>웹프로그래밍 기초 및 활용</h1>
+   </div>
+   <button id="button1">숨김</button>
+   <button id="button2">보기</button>
+    
+</body>
+</html>

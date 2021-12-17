@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+    function f(){
+        
+//        var reg= /^[A-Za-Z]{1}[A-Za-z0-9](?=.*?[#?!@$^&*-]).{6,12}$/;
+        
+        if(id.value ==""){
+            alert("아이디를 입력하세요");
+            return false;
+        }
+        
+        else if(pw.value ==""){
+            alert("비밀번호를 입력하세요")
+            return false;
+        }
+    }
+    </script>
+</head>
+<body>
+   <form action="" method="get" name="fa" onsubmit="return f();">
+       
+       
+       <input type="text" name="id" id="id" placeholder="아이디"><br>
+       
+       <input type="password" name="pw" id="pw" placeholder="비밀번호"><br>
+       
+       
+       <input type="submit" value="로그인">
+       
+   </form>
+    
+</body>
+</html>

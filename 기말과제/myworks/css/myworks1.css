@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bitter:wght@100&family=Black+Han+Sans&family=Comfortaa:wght@700&family=Fjalla+One&family=Francois+One&family=Gaegu&family=Gamja+Flower&family=Gideon+Roman&family=Gothic+A1:wght@200;500;600;900&family=Gowun+Batang&family=Hind:wght@300;400;500;600&family=Jua&family=Kirang+Haerang&family=Libre+Baskerville&family=Lora&family=Nanum+Brush+Script&family=Nanum+Gothic&family=Nanum+Gothic+Coding&family=Nanum+Myeongjo:wght@800&family=Noto+Serif+KR:wght@200&family=Poor+Story&family=Prata&family=Single+Day&family=Stylish&family=Tinos&display=swap');
+
+
+table,tr,td{
+    border: 1px dashed pink;
+    width:50%;
+    height:70%;
+    margin:100px auto ;
+}
+
+tr,td{
+    text-align: left;
+}
+.contents{
+    line-height: 30px;
+    transform: translateY(-70px);
+}
+
+#outer{
+    width: 800px;
+    height:auto;
+    padding-top:50px;
+    background-color: yellow;
+    font-size: 20px;
+    font-family: 'Poor Story', cursive;
+    position:absolute;
+    top:60%;
+    right:0%;
+    display: flex;
+    align-items: left;
+    transform: rotate(-20deg)
+}
+#outer:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+#inner{
+     transform: translateX(-90px);
+}
+
+#logo{
+    width:200px;
+    height: auto;
+    position: absolute;
+    top:35%;
+    right:10%;
+    transform: rotate(-20deg);
+
+    
+}
+
+

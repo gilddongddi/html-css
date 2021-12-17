@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gaegu&family=Jua&family=Kirang+Haerang&family=Nanum+Brush+Script&family=Noto+Serif+KR:wght@200&family=Poor+Story&display=swap');
+
+*{
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+h1{
+    font-size: 90px;
+    
+    color: mediumvioletred;
+    text-shadow: 20px 1px 60px red;
+    font-family: 'Kirang Haerang', cursive;
+}
+
+.box1{
+    box-shadow: 20px 20px 10px 10px gray;
+    font-size: 200%;
+    width:100%;
+    height:auto;
+    margin-bottom: 20px;
+    background-color: greenyellow;
+    font-family: 'Gaegu', cursive;
+}
+
+.box2{
+    font-size: 150%;
+    width:100%;
+    height: auto;
+    margin-bottom: 30px;
+    font-family: 'Poor Story', cursive;
+    background-color: wheat;
+    position: relative;
+    z-index: 0;
+    
+}
+
+.box3{
+    font-size: 200%;
+    color: white;
+    width:100%;
+    height: auto;
+    margin-bottom: 50px;
+    background-color: deeppink;
+    font-family: 'Noto Serif KR', serif;
+    
+}
+.accent{
+    font-size: 120%;
+    width:20%;
+    height:auto;
+    margin-bottom: 10px;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+img{
+    position: fixed;
+    z-index: 100;
+    right:10px;
+    top:500px;
+    
+}
+
+iframe{
+    position: fixed;
+    z-index: 90;
+    top:380px;
+    right:380px;
+}

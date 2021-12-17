@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bitter:wght@100&family=Black+Han+Sans&family=Comfortaa:wght@700&family=Fjalla+One&family=Francois+One&family=Gaegu&family=Gideon+Roman&family=Gothic+A1:wght@200;500;600;900&family=Gowun+Batang&family=Hind:wght@300;400;500;600&family=Jua&family=Kirang+Haerang&family=Libre+Baskerville&family=Lora&family=Nanum+Brush+Script&family=Nanum+Gothic&family=Nanum+Gothic+Coding&family=Nanum+Myeongjo:wght@800&family=Noto+Serif+KR:wght@200&family=Poor+Story&family=Prata&family=Single+Day&family=Stylish&family=Tinos&display=swap');
+
+.container{
+    
+}:hover{
+    animation: motion 0.7s infinite;
+}
+#logo{
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top:350px;
+    left: 40%;
+}
+
+h1{
+    font-family: 'Single Day', cursive;
+    position:absolute;
+    top:280px;
+    left:44%;
+}
+    
+
+
+@keyframes motion{
+    0%{transform: scale(0.9, 0.9);}
+    100%{transform: scale(1.0, 1.0);}
+}
+
